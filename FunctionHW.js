@@ -11,29 +11,6 @@ console.log(Math.pow(0,2));
 console.log(Math.pow(2,2));
 console.log(Math.pow(5,2));
 
-/*
-
-let number1 = 0;
-
-function square1(number1){
-    return Math.pow(number1,2);
-}
-function square2(number1){
-    return number1 * number1;
-}
-console.log(number1);
-/*
-console.log(x);
-
-console.log(square1(Math.pow(0,2)));
-console.log(square1(Math.pow(2,2)));
-console.log(square1(Math.pow(5,2)));
-
-
-console.log(square2(Math.pow(0,2)));
-console.log(square2(Math.pow(2,2)));
-console.log(square2(Math.pow(5,2)));
-*/
 
 for (x = 0; x <= 9; x++){
     console.log(Math.pow(x, 2));
