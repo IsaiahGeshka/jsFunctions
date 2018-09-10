@@ -1,6 +1,18 @@
-console.log(Math.pow(0,2));
-console.log(Math.pow(2,2));
-console.log(Math.pow(5,2));
+//Square the given number x
+function square1(x){
+    return Math.pow(x ,2 );
+}
+// Square the given number x
+const square2 = x =>{ // TODO: complete the function code
+    return Math.pow(x,2)
+}
+console.log(square1(0));
+console.log(square1(2));
+console.log(square1(5));
+
+console.log(square2(0));
+console.log(square2(2));
+console.log(square2(5));
 
 for (x = 0; x <= 9; x++){
     console.log(Math.pow(x, 2));
