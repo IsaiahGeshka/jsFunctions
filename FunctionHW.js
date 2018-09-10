@@ -1,20 +1,10 @@
-//Square the given number x
-
-/*
-
 console.log(Math.pow(0,2));
 console.log(Math.pow(2,2));
 console.log(Math.pow(5,2));
-
-
-console.log(Math.pow(0,2));
-console.log(Math.pow(2,2));
-console.log(Math.pow(5,2));
-
 
 for (x = 0; x <= 9; x++){
     console.log(Math.pow(x, 2));
-  //  console.log(x *x);
+    //console.log(x *x);
 }
 
 function yourChoice(num1, num2){
